@@ -1,5 +1,5 @@
-#实验一 ：分析SQL执行计划，执行SQL语句的优化指导
-##教材中的语句查询
+=实验一 ：分析SQL执行计划，执行SQL语句的优化指导<br>
+-教材中的语句查询<br>
 ###查询1：<br>
    ```sql
     SELECT d.department_name,count(e.job_id)as "部门总人数",
@@ -30,4 +30,4 @@
   查询结果：![result3](result3.png)
   解释计划：![result4](result4.png)
   
-   分析：查找employees表与job_history表中employee_id相同的数据，并按照salary由大到小排序。从一张表中抽出一个数据与另一张表查找相应记录，如此反复直至完成。
+   分析：查找employees表与job_history表中employee_id相同的数据，并按照salary由
