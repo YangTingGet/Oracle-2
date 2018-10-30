@@ -14,8 +14,13 @@ Oracle有一个开发者角色resource，可以创建表、过程、触发器等
 </font>
 * 第2步：新用户guardianbyebye连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户。
 ![result2](result2.jpg)
+
 * 第3步：用户hr连接到pdborcl，查询new_user授予它的视图myview
+
 ![result3](result3.jpg)
+
 ##查看数据库的使用情况
+
 ![result4](result4.jpg)
+
 ![result5](result5.jpg)
