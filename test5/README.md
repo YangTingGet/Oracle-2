@@ -53,8 +53,6 @@ create or replace PACKAGE BODY MyPack IS
 END MyPack;
 
 ```
-* 创建之后的截图：
-![result1](1.png)
 * 测试1
 ```sql
 函数Get_SaleAmount()测试方法：
@@ -79,4 +77,4 @@ END;
 ```
 结果：
 
-![result3](3.png)
+![result3](3.png) 
